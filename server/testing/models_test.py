@@ -7,6 +7,7 @@ from faker import Faker
 
 
 LOGGER = logging.getLogger(__name__)
+fake = Faker()
 
 
 class TestAuthor:
